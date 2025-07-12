@@ -1,5 +1,5 @@
 // --- KONFIGURASI PENTING ---
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbznCSltQdsHJY5B89iO0CFD93WylDgXN9rGd_X62-loUkW7g8saGWlCs6lErKIrtjVE/exec";
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycby5Phc14-Lktiwd9hg-rVttufB_M_oHSKP9MnCp1-c4u3Zkw38F4h_kOx-bDrGDPJJ8/exec";
 
 // --- Fungsi Helper ---
 async function handleApiCall(buttonId, payload, onSuccess) {
