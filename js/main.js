@@ -74,6 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             const email = document.getElementById('login-email').value;
             const password = document.getElementById('login-password').value;
+            // Simpan email untuk digunakan di halaman OTP
             sessionStorage.setItem('userEmailForOTP', email);
             handleApiCall('request-otp-btn', { action: 'requestOTP', email, password }, (result) => {
                 // Di sini kita akan menyimpan status bahwa OTP sudah diminta
